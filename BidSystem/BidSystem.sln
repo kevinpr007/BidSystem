@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BidSystem.Core", "BidSystem
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BidSystem.Core.Tests", "BidSystem.Core.Tests\BidSystem.Core.Tests.csproj", "{FA5B3D91-CCC7-4A84-B443-CB3638DA0769}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BidSystem.Core.ConsoleDriver", "BidSystem.Core.ConsoleDriver\BidSystem.Core.ConsoleDriver.csproj", "{27717B40-AF21-4F17-A515-C26B8C696421}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BidSystem.Core.ConsoleSimulator", "BidSystem.Core.ConsoleSimulator\BidSystem.Core.ConsoleSimulator.csproj", "{B7DCD00E-7416-4B64-B9CA-F16B5D1ED142}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{FA5B3D91-CCC7-4A84-B443-CB3638DA0769}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA5B3D91-CCC7-4A84-B443-CB3638DA0769}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA5B3D91-CCC7-4A84-B443-CB3638DA0769}.Release|Any CPU.Build.0 = Release|Any CPU
-		{27717B40-AF21-4F17-A515-C26B8C696421}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{27717B40-AF21-4F17-A515-C26B8C696421}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{27717B40-AF21-4F17-A515-C26B8C696421}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{27717B40-AF21-4F17-A515-C26B8C696421}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7DCD00E-7416-4B64-B9CA-F16B5D1ED142}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7DCD00E-7416-4B64-B9CA-F16B5D1ED142}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7DCD00E-7416-4B64-B9CA-F16B5D1ED142}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7DCD00E-7416-4B64-B9CA-F16B5D1ED142}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

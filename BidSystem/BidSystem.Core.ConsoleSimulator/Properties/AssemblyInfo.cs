@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("BidSystem.Core.ConsoleDriver")]
+[assembly: AssemblyTitle("BidSystem.Core.ConsoleSimulator")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("BidSystem.Core.ConsoleDriver")]
+[assembly: AssemblyProduct("BidSystem.Core.ConsoleSimulator")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("27717b40-af21-4f17-a515-c26b8c696421")]
+[assembly: Guid("b7dcd00e-7416-4b64-b9ca-f16b5d1ed142")]
 
 // Version information for an assembly consists of the following four values:
 //

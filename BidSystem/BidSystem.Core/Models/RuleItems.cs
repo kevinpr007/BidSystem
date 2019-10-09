@@ -16,14 +16,15 @@ namespace BidSystem.Core.Models
 
         [Display(Name = "Rule minimun value of the Item")]
         [Range(1, 100, ErrorMessage = "The rule should be between 0 and 100")]
-        public Decimal RuleMin { get; set; }
+        public Decimal MinAmount { get; set; }
 
         [Display(Name = "Rule maximun value of the Item")]
         [Range(1, 100, ErrorMessage = "The rule should be between 0 and 100")]
-        public Decimal RuleMax { get; set; }
+        public Decimal MaxAmount { get; set; }
 
         [Display(Name = "Assign value for Bid")]
         [Range(1, 100, ErrorMessage = "The rule should be between 0 and 100")]
+        //TODO: Remove Range
         public Decimal ValueToBid { get; set; }
     }
 }
