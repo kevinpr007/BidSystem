@@ -10,6 +10,14 @@ namespace BidSystem.Core.Models
 {
     public class Bid
     {
+        public Bid() { }
+        public Bid(int CurrentBid, int MaxOffer, Item item)
+        {
+            this.CurrentBid = CurrentBid;
+            this.MaxOffer = MaxOffer;
+            this.item = item;
+        }
+
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public Guid BidId { get; set; }
@@ -25,15 +33,24 @@ namespace BidSystem.Core.Models
 
         [Required]
         [Display(Name = "CurrentBid of the item")]
-        public Decimal CurrentBid { get; set; }
+        public float CurrentBid { get; set; }
 
         [Required]
         [Display(Name = "MaxOffer for the item")]
-        public Decimal MaxOffer { get; set; }
+        public float MaxOffer { get; set; }
 
         [Required]
         [Display(Name = "BidOut of the offer")]
         public bool BidOut { get; set; }
+
+        [Display(Name = "Item of the Bid")]
+        [Required]
+        //[Column(TypeName = "varchar")]
+        public Guid ItemId { get; set; }
+
+        // Navigation Properties.
+        [ForeignKey("ItemId")]
+        public virtual Item item { get; set; }
 
     }
 }

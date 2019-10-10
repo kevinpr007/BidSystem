@@ -24,10 +24,9 @@ namespace BidSystem.Core.Models
         public virtual User owner { get; set; }
 
         [Display(Name = "Rule of the Item")]
-        //TODO: Check all decimal ranges
         [Range(1, 100, ErrorMessage = "The rule should be between 0 and 100")]
         public Decimal Rule { get; set; }
-        
+
         [Display(Name = "ID of the item")]
         [Required]
         //[Column(TypeName = "varchar")]

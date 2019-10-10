@@ -25,8 +25,7 @@ namespace BidSystem.Core.Models
 
         [Required]
         public DateTime TimeToEnd { get; set; }
-
-        //TODO: Check this area
+        
         public ICollection<Bid> Bids { get; set; }
     }
 }

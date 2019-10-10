@@ -24,7 +24,7 @@ namespace BidSystem.Core.Models
 
         [Display(Name = "Assign value for Bid")]
         [Range(1, 100, ErrorMessage = "The rule should be between 0 and 100")]
-        //TODO: Remove Range
+
         public Decimal ValueToBid { get; set; }
     }
 }
