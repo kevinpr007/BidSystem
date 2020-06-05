@@ -9,18 +9,16 @@ namespace BidSystem.Core.Tests.Services
     public class BidServiceTest
     {
         Item item;
-        int testValue = 2;
 
         [TestCleanup]
         public void testClean()
         {
-            testValue = 0;
+            item = null;
         }
 
         [TestInitialize]
         public void Initialize()
         {
-            testValue = 5;
             item = new Item();
             item.ItemId = new Guid();
             item.Name = "Item_1";
